@@ -1,0 +1,10 @@
+
+[Chess Gamemodes]:
+	- classic chess : classic chess in command-line
+
+	- chess 2 : chess but the game contains (prince, chancellor) - based off online design
+
+	- chess moba : chess but game contains drafting phase for new units, or just ban and no pick/pick 'null' (classic version/handicap feature)
+
+	- autochess chess : cmd version (testdev) autochess but with chess units
+
