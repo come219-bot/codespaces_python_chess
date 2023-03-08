@@ -1,0 +1,13 @@
+web_server = WebServer()
+web_server.run_server()
+server_details = web_server.get_server_details()
+print(server_details)
+
+
+{
+    'server_id': '8c568d0d-cf0e-4b3c-a9ac-80f1d2c7e6e1',
+    'created_at': datetime.datetime(2023, 3, 8, 10, 31, 42, 72065),
+    'status': 'running',
+    'server_ip': '127.0.0.1',
+    'server_port': 5000
+}

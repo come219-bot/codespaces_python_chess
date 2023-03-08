@@ -1,0 +1,18 @@
+Full Court Chess Variant
+
+Plays like standard chess with all the standard pieces and rules, except it is played on a 10x10 board 
+and adds the Chancellor (Ch), Prince (Pr), and two Lords (L). 
+The only additional rules are that if ones King is placed in checkmate and the Prince is still in play, the king is killed and the Prince is promoted to King. 
+It should be noted that Pawns can not be promoted to Prince, so if the prince is captured, a checkmate ends the game as it usually would.
+
+	- Chancellor: moves like a Queen or Knight, either in a straight line, be it orthogonal or diagonal, or in an L shape. 
+	However, unlike the Knight, the Chancellor can not jump over pieces.
+
+	- Prince: moves like a Knight, in an L shape. 
+	For clarification, this movement is no longer allowed if promoted to King.
+
+	- Lord: moves like a Pawn, except they can also move one space forward diagonally if they choose, unless it is their first move and they choose to move to the center line 
+	(as this is a 10x10 board, Pawns and Lords can move 1, 2, or 3 spaces on their first move).
+
+
+
