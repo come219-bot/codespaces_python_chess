@@ -56,3 +56,36 @@ __Gamemodes__
 
 
 #AutoChess Chess:
+
+
+    Your board:
+        a b c d e f g h
+      +-----------------+
+    8 | - # - # - # - # | 8
+    7 | # - # - # - # - | 7
+    6 | - # - # - # - # | 6
+    5 | # - # - # - # - | 5
+    4 | - - - - P - - - | 4
+    3 | - - - - - - - - | 3
+    2 | - - - - P - - - | 2
+    1 | - - - - K - - - | 1
+      +-----------------+
+        a b c d e f g h
+        
+    1. Open Shop | 2. View Enemy Board | 3. Manage Board | 4. End turn | 5. Game Options
+
+    Enemy board:
+        h g f e d c b a
+      +-----------------+
+    8 | - - - K - - - - | 8
+    7 | - - - P - - - - | 7
+    6 | - - - - - - - - | 6
+    5 | - - - P - - - - | 5
+    4 | - - - P P - - - | 4
+    3 | - - - K - - - - | 3
+    2 | - - - - - - - - | 2
+    1 | - - - - - - - - | 1
+      +-----------------+
+        h g f e d c b a
+
+    1. Close Board | 2. Change Enemy Board | 3. Show your view | 4. Manage your board | 5. Exit | 6. Game Options
