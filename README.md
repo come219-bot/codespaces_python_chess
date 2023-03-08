@@ -36,6 +36,21 @@ __Gamemodes__
 #Chess 2 - Full Court Chess
 (Variation : https://imgur.com/a/VrSwn40 )
 
+    
+        a b c d e f g h i j
+      +---------------------+
+    8 | r n b e q k C b n r | 8
+    7 | l p p p p p p p p l | 7
+    6 | - - - - - - - - - - | 6
+    5 | - - - - - - - - - - | 5
+    4 | - - - - - - - - - - | 4
+    3 | - - - - - - - - - - | 3
+    2 | l P P P P P P P P l | 2
+    1 | R N B e Q K C B N R | 1
+      +---------------------+
+        a b c d e f g h i j
+
+
 
 #MOBA Chess - two types:
 
