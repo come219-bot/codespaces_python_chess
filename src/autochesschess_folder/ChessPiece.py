@@ -53,23 +53,51 @@ class Lord(ChessPiece):
 
 # https://altcodeunicode.com/alt-codes-playing-card-symbols/
 
-# Man ☺☻
+
+# moves like knight/king
 # ♠ - damager, deals dps damage x2
 # ♣ - tanker, shields damage
 # ♥ - healer, heals health
 # ♦ - nuker, instant damage w/ mana
+# ace 🂡 card, randomly jumps between suits ability
+
+# moves like king but 2 squares
+# Man ☺ ☻ - small each
 
 # negater 🂠
 # disables gambler or any ability only
  
-# gambler, 🂡
-# damage card 'n' x 10 = symbol is ... damage 
+# gambler, 🂢
+# damage card 'n' x 10 = symbol is ... '2' damage 
 
-# joker 🃏
-
-# moon 🃩, night more vision?
-
-# aa 🃳, 10% hp and kill
+# moves like king, 
+# joker 🂿🃏 - can attack anything in 3 squares 
 
 
- 
+# fool 🃠 🃣
+
+# trump 🃡 1, 🃢 2, 🃤 4, 🃥 5
+
+# moves like a knight after first unit hit
+# moon 🃩, night more vision? - how
+
+# moves like knight but 2
+# sun , 🃦🃧
+
+# dancer 🃬
+
+# cant move
+# land 🃮 instantly teleport and kill any unit on the board but also cannot target king or non-pawns, heroes.
+
+# dealer 🃴
+
+# moves like a rook but 1
+# aa 🃳, 10% hp and kill -> kill in 10
+
+# checkers unit
+# levelled king 
+# cleave unit
+
+# trump 10 - 19
+
+
