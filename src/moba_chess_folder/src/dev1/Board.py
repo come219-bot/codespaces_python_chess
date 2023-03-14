@@ -1,3 +1,5 @@
+from src.Coordinate import Coordinate as C
+
 class Board:
     def __init__(self, num_rows, num_cols):
         self.num_rows = num_rows
@@ -14,7 +16,7 @@ class Board:
         self.board[row][col] = None
     
     def display_board(self):
-        # Define the characters to use for the pieces
+    # Define the characters to use for the pieces
         piece_chars = {
             'K': '♔',
             'Q': '♕',
@@ -23,9 +25,16 @@ class Board:
             'N': '♘',
             'P': '♙',
         }
-        
+
+        # Print the column headers
+        print('  ', end='')
+        for col in range(self.num_cols):
+            print(chr(ord('a') + col), end=' ')
+        print()
+
         # Draw the board
         for row in range(self.num_rows):
+            print(row + 1, end=' ')
             for col in range(self.num_cols):
                 if (row + col) % 2 == 0:
                     print('██', end='')
@@ -36,7 +45,17 @@ class Board:
                     print(piece_chars[p], end='')
                 else:
                     print(' ', end='')
-            print()
+            print(' ' + str(row + 1))
+
+        # Print the column headers again
+        print('  ', end='')
+        for col in range(self.num_cols):
+            print(chr(ord('a') + col), end=' ')
+        print()
+
+
+
+
 board = Board(33, 33)
 board.set_piece(0, 0, 'R')
 board.set_piece(0, 1, 'N')

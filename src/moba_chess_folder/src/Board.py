@@ -64,17 +64,31 @@ board.set_piece(0, 3, 'Q')
 board.set_piece(0, 4, 'K')
 board.set_piece(0, 5, 'B')
 board.set_piece(0, 6, 'N')
-board.set_piece(0, 7, 'R')
+board.set_piece(0, 30, 'R')
 for col in range(8):
     board.set_piece(1, col, 'P')
     board.set_piece(6, col, 'P')
-board.set_piece(7, 0, 'R')
+
 board.set_piece(7, 1, 'N')
 board.set_piece(7, 2, 'B')
-board.set_piece(7, 3, 'Q')
-board.set_piece(7, 4, 'K')
-board.set_piece(7, 5, 'B')
-board.set_piece(7, 6, 'N')
-board.set_piece(7, 7, 'R')
 
+# mid rax 
+board.set_piece(27, 6, 'Q')
+# t3 left
+board.set_piece(24, 8, 'B')
+# t3 right
+board.set_piece(27, 9, 'B')
+
+#t2  - mid
+board.set_piece(23, 10, 'B')
+
+# t1
+board.set_piece(20, 13, 'N')
+
+
+
+board.set_piece(30, 3, 'K')
+board.set_piece(28, 3, 'R')
+board.set_piece(29, 4, 'R')
+# 2 bishops - t4
 board.display_board()

@@ -22,19 +22,15 @@ def askForDepthOfAI() -> int:
     depthInput = 2
 
 def printCommandOptions() -> None:
-    printUI = 'p : print UI (minimap, game data)'
-    printBoard = 'b : print board'
-    selectOption = 's : Select Unit'
+    printUI = 'p : print UI (board, game data)'
+    undoOption = 'u : undo last move'
     printLegalMovesOption = 'l : show all legal moves'
     randomMoveOption = 'r : make a random move'
     printGameMoves = 'gm: moves of current game in PGN format'
     quitOption = 'quit : resign'
     moveOption = 'a3, Nc3, Qxa2, etc : make the move'
-    options = [printUI, printBoard, selectOption, printLegalMovesOption, randomMoveOption, printGameMoves, quitOption, moveOption, '']
+    options = [printUI, undoOption, printLegalMovesOption, randomMoveOption, printGameMoves, quitOption, moveOption, '']
     print('\n'.join(options))
-
-def selectUnit() -> None:
-    print("selecting unit showing moves and targets on ui")
 
 def printAllLegalMoves() -> None:
     print("moves: ...")
@@ -45,6 +41,9 @@ def getRandomMove() -> None:
 
 def makeMove() -> None:
     print('Making move : ')
+
+def undoLastTwoMoves() -> None:
+    print("undo function .. to be removed")
 
 def printBoard(Board: Board) -> None:
     print()
@@ -60,10 +59,9 @@ def startGame(Board: Board) -> None:
     while True:
         if WHITE == WHITE:
             move = None
-            print("ID: 000	Time: Day | 012:10 	")
             command = input("It's your move. Type '?' for options. ? ")
-            if command.lower() == 's':
-                slectUnit()
+            if command.lower() == 'u':
+                undoLastTwoMoves()
                 printBoard()
                 continue
             elif command.lower() == 'p':
