@@ -98,6 +98,12 @@ class Lord(ChessPiece):
 # levelled king 
 # cleave unit
 
+# go unit
+# spreads and spawns...
+
+#advisor
+#old queen
+
 # trump 10 - 19
 
 
